@@ -1,0 +1,359 @@
+.body{
+    font-family:'Nunito Sans', sans-serif;
+}
+.hero{
+    height: 800px;
+    background-image:url("hero.jpg");        
+    background-size: cover;
+    background-position: center top;
+    
+}
+.navigation{    
+    height: 130px;
+    max-width: 1024px;
+    margin: auto;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navigation-item{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #44403c;
+}
+.navigation-item:hover {
+    color: #ea580c;
+}
+.navigation-item:active{
+    color:#fed7aa;
+}
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.phone{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.phoneicon{
+    height: 20px;
+    width: 20px;
+}
+.conteiner{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+.title-girl{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 50%;
+}
+.text-girl{
+    font-weight: 200;   
+    font-size: 20px;
+    margin-bottom: 50px;
+    max-width: 40%;  
+    line-height: 22px; 
+}
+.record-girl{
+    color: white;
+    font-size: 20px;
+    background-color: #f97316;
+    padding: 15px 30px ;
+    border-radius: 9px;
+    box-sizing: border-box;
+    max-width: 35%;
+    text-align: center;
+}
+.info{
+    margin: 0 auto;
+    padding: 80px 0 50px;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.bonus{
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 22px;
+       
+}    
+    
+.bonus-box{
+    background-color:#fafaf9;
+    border-radius: 8px;
+    align-items: space-between;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.logo-bonus{
+    width: 55px;
+    height: 55px;
+    background-color: #f97316;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 8px;
+}   
+.logo-bonus-mini{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+.bonus-title{
+    font-size: 17px;
+    font-weight: 600;
+    margin: 20px;
+}
+.bonus-text{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: start;
+}
+.us-box{
+    width: 1024px;
+    display: flex;
+    margin-top: 60px;
+    line-height: 22px;
+    
+}
+.us{
+    margin: 0;
+    padding: 0;
+    display: block; 
+    
+}
+.us-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.us-text{
+    margin-top: 20px;
+    display: block;
+    
+}
+.foto-people{
+    margin-left: 20px;
+    width: 500px;
+}
+.record{
+    background-color: #ffedd5;
+    margin: 0 auto;
+    padding: 80px 0 30px;
+    
+}
+.form{
+    width: 1024px;
+    display: flex;
+    flex-direction: column;
+         
+
+}
+.form-text{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.form-box{
+    height: 50px;
+    color: #78716c;
+    background-color: white;    
+    border: 1px solid #d6d3d1;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-right: 10px;
+    padding-left: 5px;
+}
+.form-box:hover{
+    background-color: #fed7aa;
+}
+.form-box:focus{
+    outline-color: #f97316;
+    color: #44403c;
+}
+.form-button{
+    color: white;
+    background-color:#f97316;    
+    border: 1px solid #d6d3d1;
+    border-radius: 8px;
+    font-size: 20px;
+    padding: 16px 32px;
+}
+.rec{
+    color: white;
+    text-decoration: none;
+}
+.form-button:hover{
+    background-color: #fed7aa;
+}
+.reviews{
+    background-color: #fafaf9;
+    padding: 80px 0 50px;
+    margin: 0 auto;
+    text-decoration: none;
+  
+}
+.rev{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+}
+.review{
+    align-items: center;
+    width: 600px;
+    border-bottom: 1px solid #d6d3d1;
+    padding: 30px 0;
+    margin: 0px auto;
+    
+}
+.review-title{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.review-text{
+    color: #57534e;
+    font-weight: 300;
+    line-height: 20px;
+}
+.tiket{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin: 50px auto;
+}   
+.title-tiket{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.tiket-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid #d6d3d1;
+    border-radius: 8px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    padding: 18px;
+    margin: 10px;
+}
+.tiket-title{
+    font-size: 18px;
+    color: #f97316;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.price{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.price-info{
+    margin-top: 18px;
+    flex-grow: 1;
+}
+.price-info-box{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    margin: 5px;
+}
+.check{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+.check-text{
+    font-size: 13px;
+}
+.tiket-button{
+    background-color: #fed7aa;
+    color: #ea580c;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 20px;
+}
+.tiket-button:hover{
+    background-color: #ea580c;
+    color: white;
+}
+.footer{
+    background-color: #d6d3d1;
+    height: 150px;
+    
+}
+.contacts{
+    display: flex;
+    color: #78716c;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+}
+.phone-img{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.num{
+    font-weight: 600;
+}
+.contacts-icon{
+    height: 30px;
+    width: 30px;
+    margin: 5px 0;
+}
+.contacts-icon:hover{
+    background-color: #ea580c;
+}
+.email{
+    color: #44403c;
+    text-decoration: none;
+}
+.email:hover{
+    color: #ea580c;
+}
