@@ -1,12 +1,23 @@
+
 .body{
+   
     font-family:'Nunito Sans', sans-serif;
+   
 }
 .hero{
+    
     height: 800px;
     background-image:url("hero.jpg");        
     background-size: cover;
     background-position: center top;
     
+    
+}
+.hero-box{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
 }
 .navigation{    
     height: 130px;
@@ -54,8 +65,9 @@
 }
 .conteiner{
     max-width: 1024px;
-    width: 100%;
     margin: 0 auto;
+    box-sizing: border-box;
+    
 }
 .title-girl{
     font-size: 60px;
@@ -84,32 +96,41 @@
 .info{
     margin: 0 auto;
     padding: 80px 0 50px;
-}
+}   
 .title{
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    flex-wrap: wrap;
 }
 
 .bonus{
-    width: 1024px;
+   
     display: flex;
+    flex-wrap: wrap;
+    
     justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: 0 auto;
     line-height: 22px;
-       
+    
+    
 }    
     
 .bonus-box{
     background-color:#fafaf9;
     border-radius: 8px;
-    align-items: space-between;
+    flex-grow: 1;
     text-align: center;
     margin: 10px;
-    padding: 30px;
+    padding: 20px;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
     box-sizing: border-box;
+    
 
 }
 .logo-bonus{
@@ -138,16 +159,16 @@
     text-align: start;
 }
 .us-box{
-    width: 1024px;
     display: flex;
     margin-top: 60px;
     line-height: 22px;
+    box-sizing: border-box;
     
 }
 .us{
     margin: 0;
     padding: 0;
-    display: block; 
+    
     
 }
 .us-title{
@@ -162,7 +183,9 @@
 }
 .foto-people{
     margin-left: 20px;
-    width: 500px;
+    max-width: 500px;
+    box-sizing: border-box;
+    
 }
 .record{
     background-color: #ffedd5;
@@ -171,8 +194,9 @@
     
 }
 .form{
-    width: 1024px;
+    
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
          
 
@@ -185,8 +209,12 @@
 }
 .button{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 50px auto;
+    margin: 40px auto;
+    flex-grow: 1;
+    box-sizing: border-box;
+    
 }
 .form-box{
     height: 50px;
@@ -211,7 +239,10 @@
     border: 1px solid #d6d3d1;
     border-radius: 8px;
     font-size: 20px;
-    padding: 16px 32px;
+    padding: 10px 32px;
+    flex-grow: 1;
+    box-sizing: border-box;
+  
 }
 .rec{
     color: white;
@@ -234,13 +265,17 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 35px;
+    box-sizing: border-box;
+    
 }
 .review{
     align-items: center;
-    width: 600px;
+    max-width: 600px;
     border-bottom: 1px solid #d6d3d1;
     padding: 30px 0;
     margin: 0px auto;
+    box-sizing: border-box;
+
     
 }
 .review-title{
@@ -252,9 +287,11 @@
     color: #57534e;
     font-weight: 300;
     line-height: 20px;
+    
 }
 .tiket{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 50px 0;
     margin: 50px auto;
@@ -267,6 +304,7 @@
 }
 .tiket-box{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: column;
     border: 1px solid #d6d3d1;
@@ -293,6 +331,7 @@
 }
 .price-info-box{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-size: 10px;
     margin: 5px;
@@ -325,6 +364,7 @@
 }
 .contacts{
     display: flex;
+    flex-wrap: wrap;
     color: #78716c;
     align-items: center;
     justify-content: space-between;
@@ -332,6 +372,7 @@
 }
 .number{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .phone-img{
@@ -357,3 +398,102 @@
 .email:hover{
     color: #ea580c;
 }
+
+@media (max-width: 600px ) {
+    .hero-box{
+       background-color: rgba(255, 255, 255, 0.507);
+        
+    }
+    
+    .title{
+        font-size: 30px;
+    } 
+    .title-girl{
+        font-size: 30px;
+        box-sizing: border-box;
+    }
+    
+    .bonus-box{
+        flex-direction: column;
+        width: calc(100%/1);
+    }
+    .us-box{
+        flex-direction: column;
+        width: calc(100%/1);
+        justify-content: center;
+    }
+    .tiket{
+        flex-direction: column;
+        width: calc(100%/1);
+    }
+    .contacts{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .foto-people{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .us{
+        margin: 5px;
+    }
+    .form-box{
+       
+        margin: 5px;
+    }
+   
+    .form-button{
+        margin: 0;
+        padding: 12px 18px;
+        
+    }
+    .review{
+        padding: 5px;
+    }
+    .button{
+        width: calc(100%/1);
+        
+    }
+}
+
+
+@media (max-width:856px) {
+    .hero-box{
+        background-color: rgba(255, 255, 255, 0.507);
+         
+    }
+    .us-box{
+        flex-direction: column;
+        width: calc(100%/1);
+        justify-content: center;
+        
+    }
+    .foto-people{
+        box-sizing: border-box;
+        width: calc(100%/1);
+    }
+    .tiket{
+        flex-direction: column;
+        width: calc(100%/1);
+    }
+    .button{
+        flex-direction: column;
+        width: calc(100%/1);
+        
+        
+    }
+    .form-box{
+        margin: 5px;
+        
+    }
+    
+    .form-button{
+        margin: 5px;
+        padding: 12px 18px;
+       
+    }
+    .review{
+        padding: 5px;
+    }
+    
+} 
